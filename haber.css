@@ -1,0 +1,182 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #eee;
+}
+.banner {
+	width: 100%;
+	height: 120px;
+	background: #C60003 
+}
+.banner-binlik{
+	width: 1000px;
+	height: 120px;
+	margin: 0px auto;
+}
+.banner-sol{
+	font-family: Impact;
+	letter-spacing: 1px;
+	width: 500px;
+	margin: 10px auto;
+	color: #000000;
+	font-size: 50px;
+	font-weight: bold;
+	float: left;
+	line-height: 100px;
+}
+.banner-sag{
+	width: 500px;
+	height: 120px;
+	letter-spacing: 3px;
+	float: right;
+	text-align:right;
+	line-height: 150px;
+}
+.temizle{
+	width: 100%;
+	clear: both;
+}
+.sosyal-medya-icon{
+	width: 40px;
+	transition: 0.3s;
+}
+.sosyal-medya-icon:hover {
+	width: 50px;
+	cursor: pointer;
+}
+.menu{
+	width: 100%;
+	height: 45px;
+	background: #910002;
+}
+.menu-tab{
+	width: 110px;
+	height: 45px;
+	display: inline-block;
+	line-height: 45px;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 17px;
+	letter-spacing: 1px;
+	color: #EEACA6;
+	transition: 0.2s;
+}
+.menu-tab:hover{
+	color: #FFF;
+	cursor: pointer;
+	background: #7E0002;
+}
+.menu-binlik{
+	width: 1000px;
+	height: 45px;
+	margin: 0px auto;
+}
+.icerik{
+	width: 1000px;
+	height:auto;
+	margin: 0px auto;
+}
+.icerik-sol{
+	width: 670px;
+	height: auto;
+	background: #E9E3E3;
+	float: left;
+	padding: 15px;
+}
+.icerik-sag{
+	width: 300px;
+	height: 500px;
+	background: #eee;
+	float: right;
+}
+.makale{
+	width: 100%;
+	height: auto;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 15px;
+}
+.makale-resim{
+	margin: 15px;
+	float: left;
+	width: 300px;
+}
+.makale-baslik{
+	margin-top: 15px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; 
+	color: #D72F32;
+	cursor: pointer;
+}
+.makale-yazi{
+	margin: 15px;
+	font-size: 17px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.arama-motoru{
+	float: right;
+	margin-top: 15px;
+}
+.textbox-tasarim{
+	width: 180px;
+	height: 27px;
+	border-radius: 4px 0px 0px 4px;
+	border: 1px solid #910002;
+	outline: none;
+	padding: 0px 5px;
+}
+.buton-tasarim{
+	width: 35px;
+	height: 29px;
+	letter-spacing: 0.5px;
+	border-radius: 0px 4px 4px 0px;
+	border: 1px solid #910002;
+	outline: none;
+	cursor: pointer;
+	margin-left: -5px;
+	background: #910002;
+	color: #FFF;
+}
+.en-cok-okunanlar-kapsul{
+	float: left;
+	margin-top: 25px;
+	margin-left: 75px;
+	width: 206px;
+	margin-bottom: -25px;
+}
+.en-cok-okunanlar{
+	padding: 10px;
+	background: #FFFFFF;
+	margin-top: 15px;
+	border: 1px solid #D1D1D1;
+}
+.sag-makale-baslik{
+	margin-top: 8px;
+	font-size: 16px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #000000;
+}
+.en-cok-okunanlar-baslik{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	letter-spacing: 0.5px;
+	font-size: 18px;
+	color: #D72F32;
+	border-bottom: 2px solid #D72F32;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+.numaralandirma{
+	width: 40px;
+	height: 40px;
+	background: #D72F32;
+	color: #FFFFFF;
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+	border-right: 2px solid #FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
+}
